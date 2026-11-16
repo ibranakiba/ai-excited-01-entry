@@ -6,7 +6,7 @@
 
 An entry for the [ai-excited-01 bounty](https://make.fun/bounty/ai-excited-01) on make.fun.
 
-This program writes a single image — a three-headed golden dragon bursting out of a museum painting — to `/output/entry.png`. All three heads are golden, but each breathes something different: one breathes fire, one pours liquid gold, and one breathes ice, while museum visitors recoil in fear. The image is bundled in the repository as base64 (`image.b64`); `main.ts` decodes it, checks that the bytes are a real JPEG, and writes them to the output directory.
+This program writes a single image — a three-headed golden dragon bursting out of a museum painting — to `/output/entry.png`. All three heads are golden, but each breathes a different element: the left head breathes a thick blast of ice, the middle head breathes a bolt of lightning, and the right head breathes fire, while museum visitors recoil in fear below. The image is bundled in the repository as base64 (`image.b64`); `main.ts` decodes it, checks that the bytes are a real JPEG of the expected size, and writes them to the output directory.
 
 ## Run
 
